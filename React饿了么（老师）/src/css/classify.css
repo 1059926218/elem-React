@@ -1,0 +1,28 @@
+.classify{
+  border: 1px solid #ccc;
+  background: #fff;
+  margin-top: 30px;
+  display: flex;
+  padding: 5px;
+}
+.classify .name{
+  width: 80px;
+  margin: 10px;
+}
+.classify .items{
+  display: flex;
+  width: calc(100% - 80px);
+  flex-wrap: wrap;
+}
+.classify .items li{
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.classify .items li.active{
+  background: #eee;
+}
+.classify .items li:hover{
+  background: #eee;
+}

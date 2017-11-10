@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0 !important;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  min-width: 1180px !important;
+}
+.container{
+  width: 1180px !important;
+  margin: 0 auto;
+}
+*{  
+  /*去除元素与元素之间的间距*/
+  /*font-size: 0;
+  -webkit-text-size-adjust: none;*/
+  /*盒子的属性*/
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+div,section,ul,li,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,p,table,thead,tbody,tfoot,tr,th,td,form{
+  margin: 0;
+  padding: 0;
+}
+
+/* 列表 */
+ul,ol {
+  list-style: none;
+  font-size:inherit;
+  color:inherit;
+}
+
+/*文字*/
+span,b,i,em,del,strong,big,small,pre {
+  margin:0;
+  padding:0;
+  border:0;
+  font-style:normal;
+  font-size:inherit;
+  color:inherit;
+}
+/*链接*/
+a {
+  margin:0;
+  padding:0;
+  border:0;
+  text-decoration: none;
+  font-size:inherit;
+  color:inherit;
+  /*去掉a标签默认点击的时候会有个高亮的背景色：*/
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+/*去掉img的边框*/
+/*img{
+  border: 0;
+}*/
+
+/*常用命令的总结*/
+.clear {
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  overflow: hidden;
+  clear:both;
+  height:0;
+}
